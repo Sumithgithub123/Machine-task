@@ -26,7 +26,7 @@ function Header({ setstate, img, setimage }) {
       </div>
       {img.length !== 0 ? (
         <div className="p-1 text-xs md:text-sm hover:bg-slate-200 active:bg-slate-300  px-4 bg-slate-100 rounded-md">
-          <PDFDownloadLink document={<Pdf img={img} />} fileName="somename.pdf">
+          <PDFDownloadLink document={<Pdf img={img} />} fileName="Details.pdf">
             Download PDF
           </PDFDownloadLink>
         </div>
